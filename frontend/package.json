@@ -16,7 +16,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "CHOKIDAR_USEPOLLING=true FAST_REFRESH=false react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -40,9 +40,9 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^8.4.1",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^19.0.2",
     "eslint-config-google": "^0.14.0",
-    "eslint-plugin-react": "^7.27.1",
     "react-test-renderer": "^17.0.2"
   }
 }
