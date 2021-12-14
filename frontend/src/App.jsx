@@ -1,9 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import navBar from './components/LandingPage/navBar';
 
-// eslint-disable-next-line
-const App = function () {
+const App = function Application() {
   return (
     <div className="App">
       <header className="App-header">
